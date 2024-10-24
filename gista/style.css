@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+.jumbotron {
+    background-color: aqua;
+    padding-top: 3rem;
+}
+#About {
+    background-color: aqua;
+}
+#project {
+    background-color: aqua;
+}
+img {
+    width: 400px;
+}
+section {
+    padding-top: 5rem;
+}

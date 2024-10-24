@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CSS Buatan Sendiri -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Gista Lenggana</title>
+    <style>
+      /* Gaya Font */
+      body {
+          font-family: 'Poppins', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+          font-family: 'Montserrat', sans-serif;
+      }
+
+      .profile-pic {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          border: 6px solid #4CAF50;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .profile-pic:hover {
+          transform: scale(1.1);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body id="home">
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed.top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Gista Nurul Arifah Putri Lenggana</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Favorite</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+    
+    <!-- Awal Section Jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="img/profilgista.jpg" class="profile-pic img-thumbnail" alt="Foto Profil">
+        <h1 class="display-4">Gista Nurul Arifah Putri Lenggana</h1>
+        <p class="lead">Hai guys!! Selamat datang di biodataku</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#34c3eb" fill-opacity="1" d="M0,128L21.8,112C43.6,96,87,64,131,74.7C174.5,85,218,139,262,181.3C305.5,224,349,256,393,250.7C436.4,245,480,203,524,186.7C567.3,171,611,181,655,202.7C698.2,224,742,256,785,256C829.1,256,873,224,916,192C960,160,1004,128,1047,101.3C1090.9,75,1135,53,1178,74.7C1221.8,96,1265,160,1309,165.3C1352.7,171,1396,117,1418,90.7L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Section Jumbotron -->
+
+    <!-- Awal About Me -->
+    <section id="About">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="rem-700">About Me</h2>
+          </div>
+        </div>
+        <div class="row about-pad justify-content-center">
+          <div class="col-md-5">
+            Halo, nama saya Gista Nurul Arifah Putri Lenggana. Saya adalah seorang pelajar yang menyukai dunia teknologi dan desain. Saya juga tertarik pada satu anime yang berjudul One Piece,Saya suka dengan karakter Luffy.
+          </div>
+          <div class="col-md-5">
+            Selain dunia 3D, saya juga menyukai olahraga,saya suka main basket,bulu tangkis,renang,dan berlari.
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#34c3eb"
+          fill-opacity="1"
+          d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,112C672,107,768,149,864,176C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About Me -->
+    <!-- Awal My Project -->
+    <section id="project">
+    <div class="contuiner">
+     <div class="row text-center">
+        <div class="col">
+            <h2>My Favorite</h2>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="img/gif1.gif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monkey D.Luffy</h5>
+                  <p class="card-text">Luffy adalah salah satu karakter 3D yang saya suka, dia sangat optimis dan berani,dia mengajarkan saya untuk menjadi optimis dan menjadi orang yang pemberani</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>  
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="img/g22.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">My Self</h5>
+                  <p class="card-text">Ini adalah diriku,saya menyukai diri sendiri karena menurur saya,saya hebat bisa bertahan pada tititk ini,banyak sekali masalah dan cobaan yang saya hadapi,tetapi diri saya bisa bertahan.Terimakasih untuk diriku.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mb-3 ">
+            <div class="card">
+                <img src="img/gista2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">My Boyfriend</h5>
+                  <p class="card-text">Dia adalah bf saya,saya kagum dengan dia karena banyak sekali kebaikan dan kehebatan yang ia punya,saya harap dia bisa menjadi orang yang sukses dan terus menjadi pria baik.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+     </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#34c3eb"
+        fill-opacity="1"
+        d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,112C672,107,768,149,864,176C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    </section>
+    <!-- Akhir My Project --> 
+     <!-- Awal Contact-->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center">
+        <div class="COL">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="emailku" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailku" placeholder="Masukan Email Anda">
+            </div>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Masukan Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-info">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br/>
+      <!-- Akhir Contact -->
+       <footer class="bg-info text-white text-center pb-3">
+        <P>Gista Nurul Arifah Putri Lenggana</P>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
